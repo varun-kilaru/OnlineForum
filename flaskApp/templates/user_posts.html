@@ -30,7 +30,7 @@
             <div class="text-muted">
               {% if post.is_answered %}
                 <a class="float-right btn btn-info btn-sm mt-1 mb-1" href="{{ url_for('posts.post', post_id=post.id) }}">Check Answers !!</a>
-                <!-- <a class="float-right" href="{{ url_for('posts.post', post_id=post.id) }}">C -->heck the Answers !!</a>
+                <!-- <a class="float-right" href="{{ url_for('posts.post', post_id=post.id) }}">Check the Answers !!</a> -->
               {% else %}
                 <p class="float-right">Sorry! No Answers yet.</p>
               {% endif %}
